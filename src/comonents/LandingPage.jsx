@@ -3,6 +3,13 @@ import { FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiReact, SiSvelte, SiMongodb } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 import { AiOutlineHtml5 } from "react-icons/ai";
+import { SiTypescript } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiNextdotjs } from "react-icons/si";
+import { SiRenpy } from "react-icons/si";
+import { SiStyledcomponents } from "react-icons/si";
+import { IoLogoDiscord } from "react-icons/io5";
+
 import "./LandingPage.css";
 // import FaceSvg from "../assets/mf-avatar.svg";
 import About from "../assets/about-us.png.svg";
@@ -33,7 +40,7 @@ const LandingPage = () => {
         <div className="content navbar">
           <div className="logo">
             {/* <img src={Logo} alt={" not found"} /> */}
-            <h1>Somesh SD</h1>
+            <h1>Sirius.sh</h1>
           </div>
           <nav>
             <ul>
@@ -41,27 +48,15 @@ const LandingPage = () => {
                 <a href="#hero">home</a>
               </li>
               <li>
-                <a href="#intro">about</a>
+                <a href="#intro">sobre</a>
               </li>
               <li>
                 <a href="#portfolio">portfolio</a>
               </li>
               <li>
-                <a href="#services">service</a>
+                <a href="#services">serviços</a>
               </li>
-              <li>
-                <a href="#">pages</a>
-              </li>
-              <div className="drop">
-                <li>
-                  <a href="https://medium.com/@sddahatonde22/how-to-get-a-full-refund-of-linkedin-premium-1129dd5675b8">
-                    blog
-                  </a>
-                </li>
-              </div>
-              <li>
-                <a href="#contact">contact</a>
-              </li>
+
             </ul>
           </nav>
         </div>
@@ -77,8 +72,8 @@ const LandingPage = () => {
           <div className="name">
             <h1>
               <Typewriter
-                words={["I AM SOMESH"]}
-                loop={1}
+                words={["I am Kayque"]}
+                lmoop={1}
                 cursor
                 cursorStyle="|"
                 typeSpeed={70}
@@ -93,7 +88,7 @@ const LandingPage = () => {
 
                   "Freelancer",
                   "&",
-                  "Desiginer",
+                  "Web Developer",
                 ]}
                 loop={0}
                 cursor
@@ -126,40 +121,20 @@ const LandingPage = () => {
           <div className="about">
             <div className="about-text">
               <h2>
-                let’s <br />
-                Introduce about <br />
-                myself
+                <br />
+                Introdução - sobre <br />
+                mim
               </h2>
               <p>
-                My name is Somesh Dahatonde and I have more than two years of
-                work experience as a full-stack developer working on the web. I
-                have extensive expertise in both frontend and backend
-                development. I've been using JavaScript and TypeScript
-                professionally for more than two years. Additionally, I am an
-                expert in designing fully responsive websites that are optimised
-                for all devices using frontend frameworks like ReactJS, NextJS,
-                VueJS, Gatsby, etc. I also comprehend the most recent
-                contemporary UI Trends and have a strong foundation in UI/UX
-                Designing. I am knowledgeable with NodeJS and ExpressJS, as well
-                as Koa, Django, and Laravel for the backend. Additionally, I
-                have extensive experience constructing APIs and use the tools
-                hopscotch, insomnia, and postman for designing and developing
-                databases SQL and NoSQL databases are two types I am familiar
-                with. I am familiar with MySQL, PostgreSQL, MongoDB, CrateDB,
-                Cassandra, MS SQL, Redis, and Neo4j. Understand DevOps for AWS
-                (Amazon Web Services), Google Cloud, MS Azure, and Digital Ocean
-                as well. I am familiar with serverless architecture and
-                microservices for cloud architecture, and I primarily utilise
-                the tools for cloud formation listed below (Kubernetes, Jenkins,
-                Jira, GitLab, Github Action, AWS Lambda, and S3). Know a lot
-                about Git, Version Control, and Github while talking about team
-                collaboration. My expertise in project management and product
-                design is also quite strong. I'm also really good at solving
-                difficulties and picking up knowledge on my own.
+                Olá! Meu nome é Kayque e tenho 17 anos. Estudo programação e desenvolvimento web desde 2021 e sou um verdadeiro apaixonado por tecnologia.  <br />
+
+                <br/>
+                
+                Gosto de mergulhar em diferentes linguagens e frameworks de programação, buscando constantemente novos conhecimentos e habilidades para aprimorar minhas habilidades. Acredito que a tecnologia tem o poder de impactar positivamente a sociedade e transformar a forma como vivemos, trabalhamos e nos conectamos com outras pessoas.
               </p>
             </div>
             <div className="download-btn">
-              <button>Download CV</button>
+              <button><a className="a-link" href="https://firebasestorage.googleapis.com/v0/b/arquivos-entre-mundos.appspot.com/o/cv-Kay%20-%201697146345.pdf?alt=media&token=a6ba73da-29c2-4cd2-adf6-81fb2ade404a" target="_blank">Download CV</a></button>
             </div>
           </div>
         </div>
@@ -213,20 +188,39 @@ const LandingPage = () => {
           <div className="top">
             <div className="image">
               <a href="#">
-                <SiSvelte style={{ color: "red  ", fontSize: "50px" }} />
-                <p>svelte</p>
+                <SiTypescript style={{ color: "blue", fontSize: "50px" }} />
+                <p>Typescript</p>
               </a>
             </div>
             <div className="image">
               <a href="#">
-                <SiMongodb style={{ color: "green", fontSize: "60px" }} />
-                <p>mongodb</p>
+                <IoLogoFirebase style={{ color: "yellow", fontSize: "60px" }} />
+                <p>Firebase</p>
               </a>
             </div>
             <div className="image">
               <a href="#">
-                <img src={Logo3} alt="" />
-                <p>HTML 5</p>
+                <SiNextdotjs style={{ color: "black", fontSize: "60px" }} />
+                <p>NextJs</p>
+              </a>
+            </div>
+            <div className="image">
+              <a href="#">
+                <SiRenpy style={{ color: "black", fontSize: "60px" }} />
+                <p>Ren'py</p>
+              </a>
+            </div>
+            <div className="image">
+              <a href="#">
+                <SiStyledcomponents style={{ color: "red", fontSize: "70px" }} />
+                <p>Styled-components</p>
+              </a>
+            </div>
+
+            <div className="image">
+              <a href="#">
+                <IoLogoDiscord style={{ color: "blue", fontSize: "50px" }}/>
+                <p>DiscordJs</p>
               </a>
             </div>
           </div>
@@ -240,18 +234,18 @@ const LandingPage = () => {
               <div className="year wid">
                 <h1>2+</h1>
                 <h3>
-                  Years
+                  Anos
                   <br />
-                  Experience
+                  de experiência
                   <br />
-                  Working
+                  
                 </h3>
               </div>
 
               <div className="no wid">
                 <div className="sub-no">
-                  <p>call us now</p>
-                  <h2 type="tel">(+91) 902146****</h2>
+                  <p>contate-me</p>
+                  <h2 type="tel">(11) 99604-3444</h2>
                 </div>
               </div>
             </div>
@@ -260,112 +254,69 @@ const LandingPage = () => {
       </section>
       <section className="offers" id="services">
         <div className="headline">
-          <h1>service offers</h1>
+          <h1>Serviços</h1>
           <p>
-            Is give may shall likeness made yielding spirit a itself togeth
-            created after sea
+            Estes são os serviços que presto
             <br />
-            is in beast beginning signs open god you're gathering ithe
+            Desde o desenvolvimento do seu site, até a divulgação e mídias sociais
           </p>
         </div>
         <div className="offer-content">
           <div className="offer-img">
             <img src={s1} alt="" />
-            <h2>Wp developing</h2>
+            <h2>Desenvolvimento Web</h2>
             <p>
-              Creeping for female light years <br />
-              that lesser can't evening <br />
-              heaven isn't bearing tree
-            </p>
-          </div>
-
-          <div className="offer-img">
-            <img src={s2} alt="" />
-            <h2>Wp developing</h2>
-            <p>
-              Creeping for female light years <br />
-              that lesser can't evening <br />
-              heaven isn't bearing tree
+              Desenvolvo seu site <br />
+              desde o Front <br />
+              até o Back
             </p>
           </div>
 
           <div className="offer-img">
             <img src={s3} alt="" />
-            <h2>Wp developing</h2>
+            <h2>Mídias Sociais</h2>
             <p>
-              Creeping for female light years <br />
-              that lesser can't evening <br />
-              heaven isn't bearing tree
+              Crio e gerencio suas redes sociais<br />
+              Gerando dados <br />
+              e monitorando Tráfego
             </p>
           </div>
 
           <div className="offer-img">
             <img src={s4} alt="" />
-            <h2>Wp developing</h2>
+            <h2>SEO</h2>
             <p>
-              Creeping for female light years <br />
-              that lesser can't evening <br />
-              heaven isn't bearing tree
+              Os sites são adaptados <br />
+              para o sistema de otimização de busca<br />
+              utilizado pelo Google
             </p>
           </div>
         </div>
       </section>
-      <section className="content">
-        <div className="project">
-          <h1>
-            quality work <br />
-            Recently done project
-          </h1>
-        </div>
-      </section>
-      <section className="update-main" id="contact">
-        <div className="update">
-          <div className="text">
-            <h2>get update from anywhere</h2>
-            <p>
-              Bearing Void gathering light light his eavening unto dont afraid.
-            </p>
-          </div>
-          <div className="btns">
-            <input
-              type="email"
-              className="email"
-              name="email"
-              placeholder="email address"
-            />
-            <button>Get Started</button>
-          </div>
-        </div>
-      </section>
+    
       <section className="footer">
         <footer>
           <div className="text">
-            <h1>SOMESH</h1>
-            <h2>follow me</h2>
+            <h1>Sirius.sh</h1>
+            <h2>Siga-me</h2>
             <div className="icon">
-              <a href="https://www.linkedin.com/in/somesh-dahatonde-7a04151b4/">
+              <a href="https://www.linkedin.com/in/kayque-dev-039494251/">
                 <i className="fa fa-linkedin-square" aria-hidden="true"></i>
               </a>
 
-              <i className="fa fa-instagram" aria-hidden="true"></i>
-              <a href="https://github.com/Somesh-Dahatonde">
+              <a href="https://www.instagram.com/kayque.jesus.7796/">
+                <i className="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/kayqueprogram">
                 {" "}
                 <i className="fa fa-github-square" aria-hidden="true"></i>
               </a>
 
-              <i className="fa fa-twitter-square" aria-hidden="true"></i>
+              <a href="https://twitter.com/sirius_sh_xls">
+                <i className="fa fa-twitter-square" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
-          <p>
-            Copyright ©2022 All rights reserved | This template is made with
-            <span>
-              <a href="https://github.com/Somesh-Dahatonde ">
-                {" "}
-                Somesh Dahatonde{" "}
-              </a>
-            </span>
-            with 💓
-          </p>
         </footer>
       </section>
     </>
