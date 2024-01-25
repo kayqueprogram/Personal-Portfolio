@@ -40,7 +40,7 @@ const LandingPage = () => {
         <div className="content navbar">
           <div className="logo">
             {/* <img src={Logo} alt={" not found"} /> */}
-            <h1>Sirius.sh</h1>
+            <h1>Kayque</h1>
           </div>
           <nav>
             <ul>
@@ -103,9 +103,9 @@ const LandingPage = () => {
             <h5>Full Stack Developer</h5>
           </div> */}
           <div className="btn">
-            <button>hire me</button>
+            
             <div className="hire">
-              <button>get cv</button>
+              <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-9105a.appspot.com/o/Kayque_deJesusdosSantos_curr%C3%ADculo.pdf?alt=media&token=f35f8ec4-894f-4b5c-ac61-8a74bc14ff9c" target="_blank"><button>ver cv</button></a>
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ const LandingPage = () => {
               </p>
             </div>
             <div className="download-btn">
-              <button><a className="a-link" href="https://firebasestorage.googleapis.com/v0/b/arquivos-entre-mundos.appspot.com/o/cv-Kay%20-%201697146345.pdf?alt=media&token=a6ba73da-29c2-4cd2-adf6-81fb2ade404a" target="_blank">Download CV</a></button>
+              <button><a className="a-link" href="https://firebasestorage.googleapis.com/v0/b/portfolio-9105a.appspot.com/o/Kayque_deJesusdosSantos_curr%C3%ADculo.pdf?alt=media&token=f35f8ec4-894f-4b5c-ac61-8a74bc14ff9c" target="_blank">Download CV</a></button>
             </div>
           </div>
         </div>
