@@ -126,7 +126,7 @@ const LandingPage = () => {
                 mim
               </h2>
               <p>
-                Olá! Meu nome é Kayque e tenho 17 anos. Estudo programação e desenvolvimento web desde 2021 e sou um verdadeiro apaixonado por tecnologia.  <br />
+                Olá! Meu nome é Kayque. Trabalho com programação e desenvolvimento web desde 2021 e sou um verdadeiro amante da tecnologia.  <br />
 
                 <br/>
                 
