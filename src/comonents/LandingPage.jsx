@@ -105,7 +105,7 @@ const LandingPage = () => {
           <div className="btn">
             
             <div className="hire">
-              <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-9105a.appspot.com/o/Kayque_deJesusdosSantos_curr%C3%ADculo.pdf?alt=media&token=f35f8ec4-894f-4b5c-ac61-8a74bc14ff9c" target="_blank"><button>ver cv</button></a>
+              <a href="https://firebasestorage.googleapis.com/v0/b/pessoal-b2fae.appspot.com/o/Kayque%20-%20Curr%C3%ADculo.pdf?alt=media&token=77f9c26b-a1eb-4e5c-888e-ca753f93d008" target="_blank"><button>ver cv</button></a>
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ const LandingPage = () => {
               </p>
             </div>
             <div className="download-btn">
-              <button><a className="a-link" href="https://firebasestorage.googleapis.com/v0/b/portfolio-9105a.appspot.com/o/Kayque_deJesusdosSantos_curr%C3%ADculo.pdf?alt=media&token=f35f8ec4-894f-4b5c-ac61-8a74bc14ff9c" target="_blank">Download CV</a></button>
+              <button><a className="a-link" href="https://firebasestorage.googleapis.com/v0/b/pessoal-b2fae.appspot.com/o/Kayque%20-%20Curr%C3%ADculo.pdf?alt=media&token=77f9c26b-a1eb-4e5c-888e-ca753f93d008" target="_blank">Download CV</a></button>
             </div>
           </div>
         </div>
